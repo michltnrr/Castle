@@ -1,0 +1,145 @@
+body {
+    background-color: #1e1c1b;
+}
+nav
+{
+    border-bottom: 1px solid #5D9948;
+}
+
+.letters {
+    font-size: xx-large;
+    height: auto;
+    background-color: transparent;
+    position: relative;
+    left: -280px;
+    bottom: -20px;
+}
+
+.sitename span:nth-child(1),
+.sitename span:nth-child(2), 
+.sitename span:nth-child(3), 
+.sitename span:nth-child(4), 
+.sitename span:nth-child(5),
+.sitename span:nth-child(6) { 
+    font-family: 'Roboto', sans-serif;
+    background:linear-gradient(to right, rgb(93, 153, 72), rgb(42, 226, 70));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.sitename {
+    white-space: nowrap;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo{
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    height: auto;
+    background-color: transparent;
+    position: relative;
+    display: inline-bliock; 
+    top: -10px;
+    left: -290px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: .5em 1em;
+    margin: .5em;
+    font-family: 'Roboto', sans-serif;
+    background-color: #5D9948;
+    color: white;
+    background: linear-gradient(to left,  rgb(8, 240, 39), rgb(93, 153, 72));
+    border: none;
+}
+
+nav ul li a:hover{
+    background: #5D9948;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: .2em;
+}
+
+nav ul {
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+    display: flex;
+    justify-items: center;
+}
+
+
+/* a:link {
+    color: #5D9948;
+} */
+
+h2{
+    color: #5D9948;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 75px;
+}
+
+#chesscomsite{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#chesscomsite:visited {
+    color: rgb(255, 255, 255);
+}
+
+small, aside {
+    color: white;
+}
+
+#betatest {
+    text-decoration: underline;
+    color: #5D9948;
+}
+
+#betatest:visited {
+    color: #5D9948;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+}
+
+#contact:visited {
+    color: #5D9948;
+}
+
+/* responsive functionality */
+
+@media screen and (min-width: 400px) {
+    nav ul li {
+        flex:none;
+    }
+    nav ul {
+        justify-content: center;
+    }
+} 

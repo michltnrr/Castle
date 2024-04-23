@@ -1,0 +1,153 @@
+
+body {
+    background-color: #1e1c1b;
+    
+}
+nav
+{
+    border-bottom: 1px solid #5D9948;
+}
+
+.letters {
+    font-size: xx-large;
+    height: auto;
+    background-color: transparent;
+    position: relative;
+    left: -280px;
+    bottom: -20px;
+}
+
+.sitename span:nth-child(1),
+.sitename span:nth-child(2), 
+.sitename span:nth-child(3), 
+.sitename span:nth-child(4), 
+.sitename span:nth-child(5),
+.sitename span:nth-child(6) { 
+    font-family: 'Roboto', sans-serif;
+    background:linear-gradient(to right, rgb(93, 153, 72), rgb(42, 226, 70));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.sitename {
+    /* border-bottom: 1px solid #5D9948; */
+    white-space: nowrap;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo{
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    height: auto;
+    background-color: transparent;
+    position: relative;
+    display: inline-bliock; 
+    top: -10px;
+    left: -290px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: .5em 1em;
+    margin: .5em;
+    font-family: 'Roboto', sans-serif;
+    background-color: #5D9948;
+    color: white;
+    background: linear-gradient(to left,  rgb(8, 240, 39), rgb(93, 153, 72));
+    border: none;
+    /* position: fixed; */
+}
+
+nav ul li a:hover{
+    background: #5D9948;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: .2em;
+}
+
+nav ul {
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+    display: flex;
+    justify-items: center;
+}
+
+
+
+a:link {
+    color: #5D9948;
+}
+
+
+
+h1{
+    font-family: Arial, "Straight Strokes",sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+dt {
+    font-size: 1em;
+}
+
+dd{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    border: .5px solid #5D9948;
+}
+
+dd strong {color: tomato}
+
+#info {
+    color: #5D9948;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#info p {font-style: italic;}
+
+.term {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #5D9948
+}
+p.waring, sup {
+    font-size: small;
+    color: rgb(255, 255, 255);
+}
+
+#giphy{
+    display: flex;
+    justify-content: center;
+}
+/* responsive functionality */
+
+@media screen and (min-width: 400px) {
+    nav ul li {
+        flex:none;
+    }
+    nav ul {
+        justify-content: center;
+    }
+} 

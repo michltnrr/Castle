@@ -1,0 +1,171 @@
+body {
+    background-color: #1e1c1b;
+    font-family: sans-serif;
+    
+}
+
+#one {
+    display: flex;
+    justify-content: left;
+}
+
+nav
+{
+    border-bottom: 1px solid #5D9948;
+}
+
+.letters {
+    font-size: xx-large;
+    height: auto;
+    background-color: transparent;
+    position: relative;
+    left: -280px;
+    bottom: -20px;
+}
+
+.sitename span:nth-child(1),
+.sitename span:nth-child(2), 
+.sitename span:nth-child(3), 
+.sitename span:nth-child(4), 
+.sitename span:nth-child(5),
+.sitename span:nth-child(6) { 
+    font-family: 'Roboto', sans-serif;
+    background:linear-gradient(to right, rgb(93, 153, 72), rgb(42, 226, 70));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.sitename {
+    /* border-bottom: 1px solid #5D9948; */
+    white-space: nowrap;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo{
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    height: auto;
+    background-color: transparent;
+    position: relative;
+    display: inline-bliock; 
+    top: -10px;
+    left: -290px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: .5em 1em;
+    margin: .5em;
+    font-family: 'Roboto', sans-serif;
+    background-color: #5D9948;
+    color: white;
+    background: linear-gradient(to left,  rgb(8, 240, 39), rgb(93, 153, 72));
+    border: none;
+    /* position: fixed; */
+}
+
+nav ul li a:hover{
+    background: #5D9948;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: .2em;
+}
+
+nav ul {
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+    display: flex;
+    justify-items: center;
+}
+
+
+a:link {
+    color: #5D9948;
+}
+
+
+
+p {
+    color: white;
+    font-size: 0.9em;
+}
+td, th {
+    border: 1px solid #CCC;
+    text-align: center;
+    background-color: black;
+}
+
+
+table {
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th {
+    color: white;
+}
+tr{
+    color: white;
+}
+
+h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+caption{
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    margin-top: -100px;
+    justify-content: center;
+}
+
+.Gibaud {
+    color: black;
+    background-color: white;
+}
+
+#linktomatch {
+    color: white;
+    text-decoration: underline;
+}
+
+#linktomatch:visited {
+    color: white;
+}
+/* responsive functionality */
+
+@media screen and (min-width: 400px) {
+    nav ul li {
+        flex:none;
+    }
+    nav ul {
+        justify-content: center;
+    }
+} 
