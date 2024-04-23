@@ -129,7 +129,7 @@ small, aside {
     padding: 10px;
 }
 
-#contact:visited {
+#contact, #contact:visited {
     color: #5D9948;
 }
 
